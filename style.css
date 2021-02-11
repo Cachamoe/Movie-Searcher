@@ -17,8 +17,9 @@ body {
 
 #searchResults {
     margin-top: 10%;
+    margin-left: 5%;
 }
 
 #input {
-    width: 65%;
+    width: 43%;
 }
