@@ -1,18 +1,18 @@
 # Movie-Searcher
 ![]()
 ## Overview
-This application allows users to search for, save, view, and delete movies!
+This application allows users to search for movies by title, then save and delete them from a custom list!
 
 Here is a link to the deployed webpage: []
 
 ## Application Features
-1) 
-2)
-3)
+1) Ability to search for movies by title
+2) Save selected titles to a custom list
+3) Delete movies from the list
 
 
 ## Programs
-
+HTML, CSS, Javascript, jQuery, Bootstrap
 
 ## License 
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
