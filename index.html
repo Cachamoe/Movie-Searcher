@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,12 +9,24 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
     <link rel='stylesheet' type='text/css' href='style.css'>
 </head>
+
 <body>
-    <h1 class="text">Movie Searcher</h1>
+    <h1 id="text">Movie Searcher</h1>
 
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6" id="searchResults">
+                <h1 id="searchText">Search for a Movie:</h1>
+                <input id="input" class="hero-search-filter-form-find" type="text" />
+            </div>
+            <div class="col-md-6">
 
-    
+            </div>
+        </div>
+    </div>
+
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src='script.js'></script>
 </body>
+
 </html>

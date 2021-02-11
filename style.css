@@ -4,8 +4,21 @@ body {
     background-size: cover;
 }
 
-.text {
+#text {
     margin-top: 5%;
     text-align: center;
     color: #ff9100;
+}
+
+#searchText {
+    color: #ff9100;
+    margin-bottom: 5%;
+}
+
+#searchResults {
+    margin-top: 10%;
+}
+
+#input {
+    width: 65%;
 }

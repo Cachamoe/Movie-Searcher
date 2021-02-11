@@ -1,7 +1,7 @@
 # Movie-Searcher
 ![]()
 ## Overview
-This application allows users to search for movies by title, then save and delete them from a custom list!
+This application allows users to search for movies by title, then save them to and delete them from a custom list!
 
 Here is a link to the deployed webpage: []
 
