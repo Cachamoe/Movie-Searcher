@@ -18,6 +18,21 @@ function searchMovies(movie) {
         // Empty the contents, append the new video
         $("#results").append(iframe);
     });
+
+    // OMBD API Call
+    let OMBDApiKey = "2c5e22f8";
+    let OMBDQueryURL = "http://www.omdbapi.com/?apikey=" + OMBDApiKey + "?t=" + movie;
+
+
+    $.ajax({
+        url: OMBDQueryURL,
+        method: "GET"
+    }).then(function (response) {
+        console.log(response);
+
+        let videoid = response.items[0].id.videoId
+        console.log(videoid);
+    });
 };
 
 $("#searchButton").on("click", function () {
