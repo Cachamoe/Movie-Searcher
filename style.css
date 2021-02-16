@@ -23,3 +23,8 @@ body {
 #input {
     width: 43%;
 }
+
+#results {
+    margin-top: -25%;
+    margin-left: 71%;
+}

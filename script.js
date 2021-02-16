@@ -13,7 +13,7 @@ function searchMovies(movie) {
         console.log(response);
         let videoid = response.items[0].id.videoId
         console.log(videoid);
-        let iframe = `<iframe width="560" height="315" src="https://www.youtube.com/embed/${videoid}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+        let iframe = `<iframe width="400" height="200" src="https://www.youtube.com/embed/${videoid}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
 
         // Empty the contents, append the new video
         $("#results").append(iframe);
@@ -33,7 +33,7 @@ function searchMovies(movie) {
 
 $("#searchButton").on("click", function () {
     event.preventDefault();
-    let inputMovie = $("#findtext").val().trim();
+    let inputMovie = $("#findText").val();
 
     searchMovies(inputMovie);
 });
