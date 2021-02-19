@@ -11,7 +11,7 @@ Here is a link to the deployed webpage: []
 3) Delete movies from the list
 
 
-## Programs
+## Technologies
 HTML, CSS, Javascript, jQuery, Bootstrap
 
 ## License 
