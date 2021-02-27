@@ -1,5 +1,5 @@
 # Movie-Searcher
-![]()
+![](https://github.com/Cachamoe/Movie-Searcher/blob/main/Screen%20Shot%202021-02-27%20at%2010.39.30%20AM.png)
 ## Overview
 This application allows users to search for movies by title!
 
