@@ -1,14 +1,13 @@
 # Movie-Searcher
 ![]()
 ## Overview
-This application allows users to search for movies by title, then save them to and delete them from a custom list!
+This application allows users to search for movies by title!
 
 Here is a link to the deployed webpage: [https://cachamoe.github.io/Movie-Searcher/]
 
 ## Application Features
 1) Ability to search for movies by title
-2) Save selected titles to a custom list
-3) Delete movies from the list
+2) Also provides a related video
 
 
 ## Technologies

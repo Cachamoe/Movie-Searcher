@@ -21,7 +21,7 @@ function searchMovies(movie) {
 
     // OMBD API Call
     let OMBDApiKey = "2c5e22f8";
-    let OMBDQueryURL = "http://www.omdbapi.com/?apikey=" + OMBDApiKey + "?t=" + movie;
+    let OMBDQueryURL = "http://www.omdbapi.com/?apikey=" + OMBDApiKey + "t=" + movie;
 
     $.ajax({
         url: OMBDQueryURL,
