@@ -7,7 +7,7 @@ Here is a link to the deployed webpage: [https://cachamoe.github.io/Movie-Search
 
 ## Application Features
 1) Ability to search for movies by title
-2) Also provides a related video
+2) Provides a related video
 
 
 ## Technologies
